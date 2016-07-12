@@ -87,16 +87,16 @@
 58 info package.json @angular/http@2.0.0-rc.4 No README data
 59 info package.json @angular/platform-browser@2.0.0-rc.4 No description
 60 info package.json @angular/platform-browser@2.0.0-rc.4 No README data
-61 info package.json @angular/router@3.0.0-beta.2 No description
-62 info package.json @angular/router@3.0.0-beta.2 No README data
-63 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No description
-64 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No README data
-65 info package.json @angular/router-deprecated@2.0.0-rc.1 No description
-66 info package.json @angular/router-deprecated@2.0.0-rc.1 No repository field.
-67 info package.json @angular/router-deprecated@2.0.0-rc.1 No README data
-68 info package.json @angular/upgrade@2.0.0-rc.1 No description
-69 info package.json @angular/upgrade@2.0.0-rc.1 No repository field.
-70 info package.json @angular/upgrade@2.0.0-rc.1 No README data
+61 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No description
+62 info package.json @angular/platform-browser-dynamic@2.0.0-rc.4 No README data
+63 info package.json @angular/router@3.0.0-beta.2 No description
+64 info package.json @angular/router@3.0.0-beta.2 No README data
+65 info package.json @angular/upgrade@2.0.0-rc.1 No description
+66 info package.json @angular/upgrade@2.0.0-rc.1 No repository field.
+67 info package.json @angular/upgrade@2.0.0-rc.1 No README data
+68 info package.json @angular/router-deprecated@2.0.0-rc.1 No description
+69 info package.json @angular/router-deprecated@2.0.0-rc.1 No repository field.
+70 info package.json @angular/router-deprecated@2.0.0-rc.1 No README data
 71 verbose readDependencies loading dependencies from /home/ubuntu/workspace/recipe_book/package.json
 72 verbose targetResolver reading package data from /home/ubuntu/workspace/recipe_book/node_modules/angular-cli/package.json
 73 verbose targetResolver reading package data from /home/ubuntu/workspace/recipe_book/node_modules/codelyzer/package.json
@@ -148,32 +148,32 @@
 119 verbose targetResolver reading package data from /home/ubuntu/workspace/recipe_book/node_modules/@angular/router/package.json
 120 verbose targetResolver reading package data from /home/ubuntu/workspace/recipe_book/node_modules/@angular/router-deprecated/package.json
 121 verbose targetResolver reading package data from /home/ubuntu/workspace/recipe_book/node_modules/@angular/upgrade/package.json
-122 verbose already installed skipping angular-cli@^1.0.0-beta.4 /home/ubuntu/workspace/recipe_book
-123 verbose already installed skipping codelyzer@0.0.14 /home/ubuntu/workspace/recipe_book
-124 verbose already installed skipping ember-cli-inject-live-reload@^1.4.0 /home/ubuntu/workspace/recipe_book
-125 verbose already installed skipping jasmine-core@^2.4.1 /home/ubuntu/workspace/recipe_book
-126 verbose already installed skipping jasmine-spec-reporter@^2.4.0 /home/ubuntu/workspace/recipe_book
-127 verbose already installed skipping karma@^0.13.15 /home/ubuntu/workspace/recipe_book
-128 verbose already installed skipping karma-chrome-launcher@^0.2.3 /home/ubuntu/workspace/recipe_book
-129 verbose already installed skipping karma-jasmine@^0.3.8 /home/ubuntu/workspace/recipe_book
-130 verbose already installed skipping protractor@^3.3.0 /home/ubuntu/workspace/recipe_book
-131 verbose already installed skipping ts-node@^0.5.5 /home/ubuntu/workspace/recipe_book
-132 verbose already installed skipping tslint@^3.6.0 /home/ubuntu/workspace/recipe_book
-133 verbose already installed skipping typescript@^1.8.10 /home/ubuntu/workspace/recipe_book
-134 verbose already installed skipping typings@^0.8.1 /home/ubuntu/workspace/recipe_book
-135 verbose already installed skipping @angular/common@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-136 verbose already installed skipping @angular/core@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-137 verbose already installed skipping @angular/compiler@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-138 verbose already installed skipping @angular/http@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-139 verbose already installed skipping @angular/platform-browser@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-140 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
-141 verbose already installed skipping @angular/router@3.0.0-beta.2 /home/ubuntu/workspace/recipe_book
-142 verbose already installed skipping @angular/forms@0.2.0 /home/ubuntu/workspace/recipe_book
-143 verbose already installed skipping es6-shim@^0.35.0 /home/ubuntu/workspace/recipe_book
-144 verbose already installed skipping reflect-metadata@0.1.3 /home/ubuntu/workspace/recipe_book
-145 verbose already installed skipping rxjs@5.0.0-beta.6 /home/ubuntu/workspace/recipe_book
-146 verbose already installed skipping systemjs@0.19.26 /home/ubuntu/workspace/recipe_book
-147 verbose already installed skipping zone.js@^0.6.12 /home/ubuntu/workspace/recipe_book
+122 verbose already installed skipping @angular/platform-browser@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
+123 verbose already installed skipping @angular/platform-browser-dynamic@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
+124 verbose already installed skipping @angular/router@3.0.0-beta.2 /home/ubuntu/workspace/recipe_book
+125 verbose already installed skipping @angular/forms@0.2.0 /home/ubuntu/workspace/recipe_book
+126 verbose already installed skipping es6-shim@^0.35.0 /home/ubuntu/workspace/recipe_book
+127 verbose already installed skipping reflect-metadata@0.1.3 /home/ubuntu/workspace/recipe_book
+128 verbose already installed skipping rxjs@5.0.0-beta.6 /home/ubuntu/workspace/recipe_book
+129 verbose already installed skipping systemjs@0.19.26 /home/ubuntu/workspace/recipe_book
+130 verbose already installed skipping zone.js@^0.6.12 /home/ubuntu/workspace/recipe_book
+131 verbose already installed skipping angular-cli@^1.0.0-beta.4 /home/ubuntu/workspace/recipe_book
+132 verbose already installed skipping codelyzer@0.0.14 /home/ubuntu/workspace/recipe_book
+133 verbose already installed skipping ember-cli-inject-live-reload@^1.4.0 /home/ubuntu/workspace/recipe_book
+134 verbose already installed skipping jasmine-core@^2.4.1 /home/ubuntu/workspace/recipe_book
+135 verbose already installed skipping jasmine-spec-reporter@^2.4.0 /home/ubuntu/workspace/recipe_book
+136 verbose already installed skipping karma@^0.13.15 /home/ubuntu/workspace/recipe_book
+137 verbose already installed skipping karma-chrome-launcher@^0.2.3 /home/ubuntu/workspace/recipe_book
+138 verbose already installed skipping karma-jasmine@^0.3.8 /home/ubuntu/workspace/recipe_book
+139 verbose already installed skipping protractor@^3.3.0 /home/ubuntu/workspace/recipe_book
+140 verbose already installed skipping ts-node@^0.5.5 /home/ubuntu/workspace/recipe_book
+141 verbose already installed skipping tslint@^3.6.0 /home/ubuntu/workspace/recipe_book
+142 verbose already installed skipping typescript@^1.8.10 /home/ubuntu/workspace/recipe_book
+143 verbose already installed skipping typings@^0.8.1 /home/ubuntu/workspace/recipe_book
+144 verbose already installed skipping @angular/common@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
+145 verbose already installed skipping @angular/compiler@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
+146 verbose already installed skipping @angular/core@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
+147 verbose already installed skipping @angular/http@2.0.0-rc.4 /home/ubuntu/workspace/recipe_book
 148 silly install resolved []
 149 info build /home/ubuntu/workspace/recipe_book
 150 info linkStuff recipe_book@1.0.0
