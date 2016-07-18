@@ -2,7 +2,7 @@
   "name": "recipe_book",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "ng server",
     "postinstall": "typings install",
