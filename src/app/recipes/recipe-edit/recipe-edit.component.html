@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="submit" class="btn btn-success" [disabled]="!recipeForm.valid">
+                        Save
+                    </button>
+                    <a class="btn btn-danger" (click)="onCancel()">
+                        Cancel
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="name">Title</label>
+                        <input type="text" 
+                                id="name"
+                                class="form-control"
+                                formControlName="name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <input type="text" 
+                            id="image-url"
+                            class="form-control"
+                            formControlName="imagePath"
+                            #imageUrl>    
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
