@@ -11,19 +11,19 @@ import { RecipeService } from "./recipes/recipe.service";
     directives: [DropdownDirective, ROUTER_DIRECTIVES]    
 })
 
-export class HeaderComponent{
-    constructor(){
-        private recipeService: RecipeService;
-    }
-    
-    onStore(){
-        this.recipeService.storeData().subscribe(
-            data => console.log(data),
-            error => console.error(error) 
-        );    
-    }
-    
-    onFetch(){
-        this.recipeService.fetchData();
-    }
+export class HeaderComponent {
+
+  constructor(private recipeService: RecipeService) {}
+
+  onStore() {
+    this.recipeService.storeData().subscribe(
+      data => console.log(data),
+      error => console.error(error)
+    );
+  }
+
+  onFetch() {
+    this.recipeService.fetchData();
+  }
+
 }

@@ -14,12 +14,11 @@ import { RecipeService } from "../recipe.service";
 
 export class RecipeListComponent implements onInit {
     recipes : Recipe[] = [];
-    constructor(){ private recipeService : RecipeService}
+    constructor( private recipeService : RecipeService ){}
     
-    ngOnInit(){
+    ngOnInit() {
         this.recipes = this.recipeService.getRecipes();
         this.recipeService.recipesChanged.subscribe(
-            (recipes: Recipe[]) => this.recipes = recipes
-        );
+        (recipes: Recipe[]) => this.recipes = recipes);
     }
 }
