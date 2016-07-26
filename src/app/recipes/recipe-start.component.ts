@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    moduleId : module.Id,
+    moduleId : module.id,
     selector : 'rb-recipe-start',
     template: `
         <h1>Please select a Recipe</h1>

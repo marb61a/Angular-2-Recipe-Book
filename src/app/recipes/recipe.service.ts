@@ -6,7 +6,7 @@ import { Ingredient } from "../shared";
 
 @Injectable()
 export class RecipeService{
-    recipesCahnged = new EventEmitter<Recipe[]>();
+    recipesChanged = new EventEmitter<Recipe[]>();
     
     private recipes : Recipe[] = [
         new Recipe('Schnitzel', 'Very tasty', 'http://images.derberater.de/files/imagecache/456xXXX_berater/berater/slides/WienerSchnitzel.jpg', [

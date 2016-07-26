@@ -12,7 +12,7 @@ import { RecipeService } from "../recipe.service";
     directives: [RecipeItemComponent, ROUTER_DIRECTIVES]
 })
 
-export class RecipeListComponent implements onInit {
+export class RecipeListComponent implements OnInit {
     recipes : Recipe[] = [];
     constructor( private recipeService : RecipeService ){}
     

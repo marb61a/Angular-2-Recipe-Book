@@ -9,7 +9,7 @@ import {
     Validators,
     FormBuilder,
     REACTIVE_FORM_DIRECTIVES
-} from '@angular/form';
+} from '@angular/forms';
 
 import { RecipeService } from "../recipe.service";
 import { Recipe } from "../recipe";
